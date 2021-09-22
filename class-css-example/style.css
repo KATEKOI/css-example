@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.car {
+  height: 100px;
+}
+section {
+  margin: 0 40px;
+  margin-top: 20vh;
+}
+section > h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+section > p {
+  text-align: center !important;
+}
+main > div {
+  text-align: center;
+}
+
+section > p > button {
+  background-color: red;
+  padding: 15px 33px;
+  border: none;
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+section > p > button:hover {
+  background-color: transparent;
+  color: red;
+}
